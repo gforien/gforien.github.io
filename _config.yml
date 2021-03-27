@@ -6,23 +6,23 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Gabriel Forien
+title: Student at INSA Lyon, France
+email: gforien.pro@gmail.com
+website: www.gforien.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  gforien
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: kyotosworld
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: gabrielforien
+linkedin_username: gforien
 # xing_username: jekyll
 # pinterest_username: jekyll
 youtube_username: globalmtb
