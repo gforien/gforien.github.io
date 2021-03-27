@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: InShape
-        link: gforien.github.io/inshape/static/index.html
+        link: https://gforien.github.io/inshape/static/index.html?./images/osi.png
         link_text: Live demo
         additional_links:
           - title: github
