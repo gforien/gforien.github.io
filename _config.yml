@@ -45,10 +45,10 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Bio
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Bonjour 👋
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -58,20 +58,25 @@ content:
     content:
       - layout: top-middle
         title: InShape
-        link: pages.github.io/inshape
+        link: gforien.github.io/inshape/static/index.html
         link_text: Live demo
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: github
             icon: fab fa-github
             url: github.com/gforien/inshape
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I use Miro a lot, so I often find myself including images or diagrams that are very synthetic, with nice colors and shapes.
-          And I'd like to edit these images, instead of being stuck with them. So I created this plugin to turn diagrams into Miro shapes.
+          - title:  instagram
+            icon: fab fa-instagram
+            url: instagram.com/
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: |
+        J'utilise Miro quotidiennement, aussi bien pour mes cours que mes projets personnels.
+        Ce qui me manque, c'est de pouvoir copier/coller une image et qu'elle soit directement modifiable.
+        On est en 2021, pourquoi quand je colle un schéma, il n'est pas automatiquement reconnu et transformé en formes Miro ??
+        On peut passer par un peu de traitement d'image pour récupérer les formes, les couleurs, un coup d'OCR, et boum !
+        Du coup c'est ce que j'ai fait 😉
+# I use Miro a lot, so I often find myself including images or diagrams that are very synthetic, with nice colors and shapes.
+# And I'd like to edit these images, instead of being stuck with them. So I created this plugin to turn diagrams into Miro shapes.
 
   # - title: Experience
   #   layout: list
@@ -87,17 +92,17 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Education # Title for the section
+  - title: Formation # Title for the section
     layout: list
     content:
       - layout: left
         title: INSA Lyon
         caption: 2015 - 2021
-        sub_title: MSc Computer Science and Telecommunications
+        sub_title: Informatique et Télécommunications
         quote: >
-          A really nice school.
+          Ce que j'en retiendrai ? Des antennes, de belles rencontres, du code, la Junior-Entreprise, et le lever de soleil sur le campus de la Doua
         description: |
-          During my time at INSA, except for partying and meeting amazing people. What I learned the most wasn't about science or computing.
+          description
 
 
   # - title: A Little More About Me
