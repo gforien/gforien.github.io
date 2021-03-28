@@ -36,12 +36,12 @@ content:
 
       - title: InShape
         layout: top-middle
-        link: https://gforien.github.io/inshape/static/index.html?./images/osi.png
-        link_text: Live demo
+        link: gforien.github.io/inshape
+        link_text: Demo
         additional_links:
           - title: github
             icon: fab fa-github
-            url: github.com/gforien/inshape
+            url: gforien.github.io/inshape
         description: |
           J'utilise Miro quotidiennement, aussi bien pour mes cours que mes projets personnels.<br>
           Ce qui me manque, c'est de pouvoir copier/coller une image et qu'elle soit directement modifiable.<br>
