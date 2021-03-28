@@ -1,50 +1,22 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
-
-# Content configuration version
+# Content configuration version (darkmode = true/false/never)
 version: 2
+darkmode: true
+favicon: images/favicon.ico
 
 # Personal info
 name: Gabriel Forien
 title: Student at INSA Lyon, France
 email: gforien.pro@gmail.com
 # website: www.gforien.github.io
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-# twitter_username: facespics
 github_username:  gforien
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
 facebook_username: gabriel.forien
-# flickr_username: jekyll
 instagram_username: gabrielforien
 linkedin_username: gforien
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 
+#####################
+#       BIO
+#####################
 about_title: Bio
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
@@ -52,13 +24,19 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
+
+
+#######################
+#       PROJETS
+#######################
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
 
-      - layout: top-middle
-        title: InShape
+
+      - title: InShape
+        layout: top-middle
         link: https://gforien.github.io/inshape/static/index.html?./images/osi.png
         link_text: Live demo
         additional_links:
@@ -72,21 +50,26 @@ content:
           On peut passer par un peu de traitement d'image pour récupérer les formes, les couleurs, un coup d'OCR, et boum !<br>
           Du coup c'est ce que j'ai fait 😉
 
-      - layout: top-middle
-        title: BlueBox
+
+      - title: BlueBox
+        layout: top-middle
         link: https://gforien.github.io/inshape/static/index.html?./images/osi.png
         link_text: Live demo
         additional_links:
           - title: github
             icon: fab fa-github
-            url: github.com/bluebox-insa/bluebox
+            url: github.com/bluebox-insa
           - title:  instagram
             icon: fab fa-instagram
             url: instagram.com/bluebox_insa
         description: |
-          On a tous des enceintes Bluetooth
+          On a tous des enceintes Bluetooth, mais impossible de les connecter ensemble.
 
-  - title: Formation # Title for the section
+
+########################
+#       FORMATION
+########################
+  - title: Formation
     layout: list
     content:
       - layout: left
@@ -98,28 +81,12 @@ content:
         description: |
           description
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-# Footer
 footer_show_references: true
 references_title: Made with ❤ by sproogen
-
-# Build settings
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
  - jekyll-seo-tag
