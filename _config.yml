@@ -2,7 +2,6 @@
 version: 2
 darkmode: true
 favicon: images/favicon.ico
-
 # Personal info
 name: Gabriel Forien
 title: Student at INSA Lyon, France
@@ -14,15 +13,15 @@ instagram_username: gabrielforien
 linkedin_username: gforien
 
 
+
 #####################
 #       BIO
 #####################
 about_title: Bio
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Bonjour 👋
+  Bonjour bonjour 👋
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 
 
@@ -67,6 +66,7 @@ content:
           On a tous des enceintes Bluetooth, mais impossible de les connecter ensemble.
 
 
+
 ########################
 #       FORMATION
 ########################
@@ -81,6 +81,7 @@ content:
           Ce que j'en retiendrai ? Des antennes, de belles rencontres, du code, la Junior-Entreprise, et le lever de soleil sur le campus de la Doua
         description: |
           description
+
 
 
 footer_show_references: true
