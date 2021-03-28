@@ -1,6 +1,6 @@
 # Content configuration version (darkmode = true/false/never)
 version: 2
-darkmode: true
+darkmode: false
 favicon: images/favicon.ico
 # Personal info
 name: Gabriel Forien
