@@ -52,7 +52,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -87,7 +86,6 @@ content:
         description: |
           On a tous des enceintes Bluetooth
 
-
   - title: Formation # Title for the section
     layout: list
     content:
@@ -99,7 +97,6 @@ content:
           Ce que j'en retiendrai ? Des antennes, de belles rencontres, du code, la Junior-Entreprise, et le lever de soleil sur le campus de la Doua
         description: |
           description
-
 
   # - title: A Little More About Me
   #   layout: text
