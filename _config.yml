@@ -69,11 +69,15 @@ content:
             url: instagram.com/
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: |
-        coucou
+        description: | # commentaire
+          coucou
 # I use Miro a lot, so I often find myself including images or diagrams that are very synthetic, with nice colors and shapes.
 # And I'd like to edit these images, instead of being stuck with them. So I created this plugin to turn diagrams into Miro shapes.
-
+# J utilise Miro quotidiennement, aussi bien pour mes cours que mes projets personnels.
+# Ce qui me manque, c'est de pouvoir copier/coller une image et qu'elle soit directement modifiable.
+# On est en 2021, pourquoi quand je colle un schéma, il n'est pas automatiquement reconnu et transformé en formes Miro ??
+# On peut passer par un peu de traitement d'image pour récupérer les formes, les couleurs, un coup d'OCR, et boum !
+# Du coup c'est ce que j'ai fait 😉
   # - title: Experience
   #   layout: list
   #   content:
